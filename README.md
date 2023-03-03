@@ -1,3 +1,13 @@
+# Amberside Energy Dashboard
+
+![alt text](./src/../static/ael-logo.png)
+
+
+This is the dashboard design for Amberside Energy's app dashboard.
+
+
+---
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
