@@ -2,7 +2,7 @@
     import Modal from "./modal.svelte";
     import { fly } from 'svelte/transition';
 
-    import {appconfig,menus} from '../config'
+    import {menus} from '../config'
 
 
     let displayModal = true
