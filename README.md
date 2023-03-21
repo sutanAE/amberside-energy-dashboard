@@ -5,6 +5,12 @@
 
 This is the dashboard design for Amberside Energy's app dashboard.
 
+# Instruction
+
+FIRST!!! create ```./src/config.ts```, or uncomment ```./src/config__templates.ts``` and populate the menus. The list is what gets displayed in the dashboard.
+
+build statically to ```index.html``` using ```npm run build```. ONLY serve with a webserver such as apache httpd or nginx.
+
 
 ---
 
