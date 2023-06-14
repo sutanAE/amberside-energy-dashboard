@@ -1,6 +1,6 @@
 <script lang='ts'>
     import { createEventDispatcher } from "svelte";
-    import { fly, fade } from 'svelte/transition';
+    import { fade } from 'svelte/transition';
     const dispatch = createEventDispatcher();
     export let displayModal = 'flex';
 
@@ -13,6 +13,7 @@
 		dispatch('closeModal');
 	}
 </script>
+
 
 <div id='modal' style={cssmodal} out:fade>
     <div>
@@ -57,6 +58,5 @@
         background-color: rgb(255,255,255);
         transition: display 2s;
         /* background-color: rgba(0,0,0,0.4);  */
-
     }
 </style>

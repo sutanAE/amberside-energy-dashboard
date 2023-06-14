@@ -1,6 +1,6 @@
-<script lang='ts'>
-    import {menus} from '../config'
-    import Card from '../components/Card.svelte';
+<!-- <script lang='ts'>
+    import {menus} from '../../config'
+    import Card from '../../components/Card.svelte';
 </script>
 
 <main>
@@ -21,13 +21,8 @@
 <style lang="scss">    
     main {
         text-align: center;
-        max-width: 1200px;
+        max-width: 1000px;
         margin: auto;
-        color: #16254c;
-
-        h1{
-            margin: 50px;
-        }
     }
 
     .card-grid {
@@ -39,7 +34,5 @@
         @media screen and (min-width: 1000px)  {
             grid-template-columns: repeat(4, minmax(0, 1fr));
         }
-        
     }
-
-</style>
+</style> -->
