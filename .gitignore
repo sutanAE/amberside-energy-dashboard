@@ -11,3 +11,5 @@ vite.config.ts.timestamp-*
 
 
 src/config.ts
+
+run.sh
